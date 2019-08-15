@@ -6,7 +6,7 @@ Next, the gene splice graph statistics are evaluated by a splice event detection
 
 For the purposes of quantifying the event, we have arbitrarily labelled two types of paths for each event, one type being ‘inclusive’, meaning that a certain exon would be included if the path was traversed; and the other type being ‘exclusive’, meaning that a certain exon would be excluded if the path was traversed. In the diagram above, the inclusive path of each event type is colored in purple while the exclusive path(s) is colored in green.
 
-![PSI](fig/500px-SpliceSeqV2Methods_06.png)
+![PSI](figure/500px-SpliceSeqV2Methods_06.png)
 
 For each event detected in a given sample, a value called called Percent-Spliced-In (PSI) is calculated for the event, which measures the proportion of reads falling on the ‘inclusive path’ as normalized by length. The actual formula is:
 
